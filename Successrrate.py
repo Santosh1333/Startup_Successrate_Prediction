@@ -1,6 +1,3 @@
-pip install scikit-learn
-import sklearn
-import pickle
 import streamlit as st
 pickle_in=open('model.pkl','rb')
 model=pickle.load(pickle_in)
